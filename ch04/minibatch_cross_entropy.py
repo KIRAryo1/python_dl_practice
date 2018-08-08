@@ -20,6 +20,3 @@ def cross_entropy_error(y, t):
         
     batch_size = y.shape[0]
     return -np.sum(t * np.log(y)) / batch_size
-
-
-
