@@ -11,7 +11,7 @@ from two_layer_net import TwoLayerNet
 train_loss_list = []
 
 # Hyper Parameter
-iters_num = 2
+iters_num = 20
 train_size = x_train.shape[0]
 batch_size = 10
 learning_rate = 0.1
