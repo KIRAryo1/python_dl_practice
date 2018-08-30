@@ -20,3 +20,5 @@ dapple_price, dtax = mul_tax_layer.backward(dprice)
 dapple, dapple_num = mul_apple_layer.backward(dapple_price)
 
 print(dapple, dapple_num, dtax)
+
+
